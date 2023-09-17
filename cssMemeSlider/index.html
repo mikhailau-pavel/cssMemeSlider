@@ -7,25 +7,38 @@
   <title>Document</title>
   </head>
   <body>
-    <div class="slider-wrapper">
-      <div class="image-container">
-        <img src="assets/meme1.jpeg" class="meme-image">
-        <img src="assets/meme2.jpeg" class="meme-image">
-        <img src="assets/5f9df667224af.jpeg" class="meme-image">
-        <img src="assets/meme4.jpeg" class="meme-image">
+   <h1>Привет, я немного намутил с версиями дел, если есть возможность проверить немного позже, будет здорово, спасибо</h1>
+    <div id="meme-gallery">
+        <input type="radio" name="meme-gallery" id="meme1" checked>
+        <input type="radio" name="meme-gallery" id="meme2">
+        <input type="radio" name="meme-gallery" id="meme3">
+        <input type="radio" name="meme-gallery" id="meme4">
+        <div id="memes">
+           <div id="overflow">
+              <div class="inner">
+                 <img class="meme-image meme_1" src="./assets/meme1.jpeg">
+                 <img class="meme-image meme_2" src="./assets/meme2.jpeg"> 
+                 <img class="meme-image meme_3" src="./assets/meme3.jpeg">
+                 <img class="meme-image meme_4" src="./assets/meme4.jpeg">
+              </div>
+           </div>
+        </div>
+        <div id="controls">
+           <label for="meme1"></label>
+           <label for="meme2"></label>
+           <label for="meme3"></label>
+           <label for="meme4"></label>
+        </div>
+        <div id="memes">
+         <div id="overflow">
+            <div class="inner">
+               <p class="meme-image meme_1">Привет, я немного намутил с версиями дел, если есть возможность проверить немного позже, будет здорово, спасибо</p>
+               <p class="meme-image meme_2">Привет, я немного намутил с версиями дел, если есть возможность проверить немного позже, будет здорово, спасибо</p>
+               <p class="meme-image meme_3">Привет, я немного намутил с версиями дел, если есть возможность проверить немного позже, будет здорово, спасибо</p>
+               <p class="meme-image meme_4">Привет, я немного намутил с версиями дел, если есть возможность проверить немного позже, будет здорово, спасибо</p>
+            </div>
+         </div>
       </div>
-      <div class="buttons-container">
-        <input type="radio" name="button" class="meme">
-        <input type="radio" name="button" class="meme">
-        <input type="radio" name="button" class="meme">
-        <input type="radio" name="button" class="meme">
-      </div>
-      <div class="labels">
-        <label for="meme1">meme1</label>
-        <label for="meme2">meme2</label>
-        <label for="meme3">meme3</label>
-        <label for="meme4">meme4</label>
-      </div>  
-    </div>
+     </div>
   </body>
 </html>
