@@ -1,7 +1,12 @@
+
 #meme-gallery {
   margin: 0 auto;
   max-width: 800px; /*100%*/
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  
 }
 
 #meme-gallery input[type=radio] {
@@ -18,6 +23,9 @@
   background: #fff;
   position: relative;
   z-index: 1;
+}
+.text__container {
+ width: 70%
 }
 #overflow {
   width: 100%;
@@ -72,5 +80,8 @@
 }
 
 @media screen and (max-width: 640px) {
-  
+  #meme-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
 }
